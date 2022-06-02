@@ -1,1 +1,3 @@
 # Data-Scraper
+
+This script logs into our Salesforce Org and makes a query on the records. It then turns the results into a pandas dataframe that it will iterate through. Each row on the pandas dataframe represents a client. It will connect to a second CRM that we are currently unable to utilize API to pull data from. It will utilize the selenium module to iterate through each client's file in this CRM and pull the data without the use of API. It will compile this data into an excel spreadsheet for further analysis. This information is then presented to major insurance companies on the behalf of the company.
